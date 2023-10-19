@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=en>
+<!-- HTML validator suggested that I should add "=en" since this web page is all in Enlgish -->
+
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Oscar's Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<!-- Firstly, I filled in the necessary information for the header, intro, about me, and contact portions. 
+      Afterwards, I would be able to better visualize and strategize how I'll organize my webpage. -->
+<body>
+  <header class="background-blue">
+    <div>
+      <h1>Oscar O. Rosales</h1>
+      <h3 class="center-text color-text-white" style= "font-size: 20px"> An Up And Coming Software Engineer</h3>
+      <!-- Created a ul for the navigation bar. Set up href's so that I can add id's to the three sections below. -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <!-- One image to take up some space. -->
+      <img src="image/image1.jpg" alt="">
+      <!-- HTML validator says that article "lacks a heading". But they are all located further in.-->
+      <article>
+        <section id="intro">
+          <header>
+            <h2>Hello, I'm Oscar! Nice To Meet You!</h2>
+          </header>
+          <p>
+            I was born in LA and have lived here my entire life. I temporarily moved to the Univerity of California, Riverside for a year to get my degree in Political Science and a minor in History. But thereafter I came back to LA and I'm very glad to call this place "home sweet home"! I currently reside in the community/area of Florence-Graham to be more precise.
+          </p>
+        </section>
+
+        <hr>
+        
+        <section id="about">
+          <header>
+            <h2>About Me</h2>
+          </header> 
+          <!-- I mentioned two interests: my love for art and video games -->
+          <p>
+            I still recall moments in middle school where we had some lessons in HTML. Like my two other brothers (sorry, but not my sister) I was proud to be talented in art. So being able to fiddle around with code to decorate and organize my HTML page was an experience that I never thought I would find satisfying! I took some introductory computer science classes in my time at UCR. I enjoyed the vast majority of it since it rekindled my knowledge throughout the years. Additionally, I really love video games. When I built my pc I was finally able to mess around with the code files here and there, allowing me to alter/mod certain aspects of games. I am excited to learn more about coding and to delve into many partnerships with other fellow programmers!
+          </p>
+        </section>
+
+        <hr>
+        
+        <section id="contact">
+          <header>
+            <h2>Contact</h2>
+          </header>
+          <p>
+            Want to contact me? Feel free to do so on LinkedIn an or GitHub!
+          </p>
+          <!-- I was wondering if using a ul would be handled differently from a ol.
+          It wasn't. -->
+          <ol>
+            <li><a href="https://www.linkedin.com/in/oscar-rosales-b75aa5174" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Oski0196" target="_blank">GitHub</a></li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- Wanted to add a "copyright" logo. Googled it and came up with "&copy" -->
+  <footer class="background-blue">
+    <h3 class="color-text-white">&copy; Oscar O. Rosales</h3>
+  </footer>
+
+
+  
+ 
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
+

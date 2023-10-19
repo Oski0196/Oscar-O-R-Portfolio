@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #E4F7FF;
+}
+
+/* Overall I stook with the color black for the all other text. 
+Keeping it professional and avoiding too much color. */
+
+/* Was stuck on how to make navigation bar horrizontal. Looked up W3 and YouTube to figure out foundation. */
+.navbar ul{
+  background-color: #70C5EB;
+  padding: 0px;
+  margins: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/*I input text decoration to none to get rid of underline. It was an eyesore.*/
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+/* The highlight makes navbar more interesting. Used pseudo code :hover for whenever a mouse hovers over navbar*/
+.navbar a:hover {
+  background-color: #9EDBF7
+}
+
+
+/* inline-block, as opposed to just block (vertical), makes navbar horizontal.*/
+.navbar li{
+  display: inline-block;
+}
+
+
+/* This picture took forever to center align. It was always stuck on the left side of page. 
+Looked up a YouTube video to assist. */
+img {
+  width: 35%;
+  margin: 1px auto;
+  display: block;
+}
+
+
+
+/* I wanted my hr to blend with the color theme of website. */
+hr {
+  border-color: #70C5EB
+}
+
+/* White font to make it look more interesting for header.*/
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+
+/* h1, h2, h3 has similar properties. So I combined them. */
+h1, h2, h3{
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+
+/* Since there isn't much text, I squeezed it in horizontally and spaced it vertically using line-height
+to make to take up more of the page. */
+p {
+  text-align: center;
+  font-family: Comic Sans MS;
+  line-height: 180%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+
+/* Added color background for header and footer */
+.background-blue {
+  background-color: #2BA3D8;
+}
+
+li {
+  text-align: center;
+  font-family: Comic Sans MS;
+  list-style: none;
+}
+
+/* Couldn't decide how or where to use "height" so I made the footer area a bit bigger*/
+footer {
+  height: 70px;
+}
+
+
+/* probably not necessary but was playing around with creating classes*/
+.center-text {
+  text-align: center;
+}
+
+
+/* created just in case I wanted some specific text to be white*/
+.color-text-white {
+  color: white;
+}
