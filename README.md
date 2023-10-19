@@ -1,2 +1,2 @@
-# Oscar-O.-R.-Portfolio
+# Oscar-O-R-Portfolio
 First portfolio
